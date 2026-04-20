@@ -124,4 +124,4 @@ Using environment variables securely
 
 ## 👨‍💻 Author
 
-Developed as part of a DevOps learning journey 🚀
+Developed as part of a DevOps learning 🚀
