@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Env files (SECRETS)
+.env
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+
+# Personal notes
+docs.txt
+notes.txt
