@@ -2,7 +2,6 @@ services:
   backend:
     build:
       context: ./backend
-    container_name: backend
     ports:
       - '5000:5000'
     env_file:
@@ -15,7 +14,6 @@ services:
   frontend:
     build:
       context: ./frontend
-    container_name: frontend
     ports:
       - '3000:80'
     depends_on:
@@ -25,7 +23,6 @@ services:
 
   mongo:
     image: mongo:6
-    container_name: mongo
     ports:
       - '27017:27017'
     volumes:
